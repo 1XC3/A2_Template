@@ -54,6 +54,8 @@ int main () {
 
 /* Expected Output: 
 
+Obviously the pointers will be different each time, the point is that the previous and next pointers are pointing to the correct node. 
+
 ---
 < This: 0x1cf8590 - 1 - P : (nil) - N : (nil) >
 ---
@@ -89,6 +91,9 @@ int main () {
 < This: 0x1cf85f0 - 2 - P : 0x1cf8590 - N : 0x1cf85b0 >
 < This: 0x1cf85b0 - 3 - P : 0x1cf85f0 - N : 0x1cf85d0 >
 < This: 0x1cf85d0 - 4 - P : 0x1cf85b0 - N : (nil) >
+---
+
+---
 ---
 
 */ 
